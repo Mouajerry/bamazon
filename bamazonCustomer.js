@@ -63,7 +63,7 @@ connection.query('SELECT * FROM Products', function(err, res){
         {ItemID: ans.id}
         ], function(err, result){
             if(err) throw err;
-            console.log("Success! Your total is $" + grandTotal.toFixed(2) + ". Your item(s) will be shipped to you in 3-5 business days.");
+            console.log("Success! Your total is $" + grandTotal.toFixed(2) + ". Thank you for your purchase.");
         });
 
         connection.query("SELECT * FROM Departments", function(err, deptRes){
