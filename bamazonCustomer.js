@@ -94,7 +94,7 @@ connection.query('SELECT * FROM Products', function(err, res){
 })
 }
 
-//asks if they would like to purchase another item
+//asks to purchase another item
 function reprompt(){
   inquirer.prompt([{
     type: "confirm",
